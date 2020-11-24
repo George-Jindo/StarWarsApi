@@ -82,14 +82,28 @@ input {
     color: yellow !important;
 }
 
+.MuiTableCell-root {
+    border-bottom: 1px solid rgba(255, 255, 0, 0.301) !important;
+}
+
 tr:nth-child(even) {
-    background-color: rgb(196, 196, 196) !important;
+    background-color: rgba(196, 196, 196, 0.055) !important;
 }
 
 tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.774) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.MuiPaper-root {
+    background-color: rgba(255, 255, 255, 0) !important;
 }
 .MuiPagination-root {
     max-width: 800px !important;
     text-align: center;
+}
+
+.MuiPaginationItem-outlinedPrimary.Mui-selected {
+    color: rgb(20, 20, 20) !important;
+    border: rgba(255, 255, 0, 0.5) !important;
+    background-color: rgba(255, 255, 0, 0.74) !important;
 }
