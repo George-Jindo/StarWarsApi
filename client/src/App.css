@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Goldman', cursive, Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 8vh;
+    position: absolute;
+    width: 100%;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.705);
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+        -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo h4 {
+    margin-left: 7px;
+    margin-top: -3px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.main {
+    background-image: radial-gradient(
+            at center center,
+            #c2820a86 0%,
+            #00000028 100%
+        ),
+        url('./background.jpg');
+    height: 100vh;
+    background-size: center;
+    background-position: center;
 }
