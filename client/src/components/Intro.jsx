@@ -2,8 +2,6 @@ import React from 'react';
 import logo from '../logo.png';
 
 const Intro = () => {
-    this.state = { play: false };
-
     return (
         <div className='star-wars-intro'>
             <a href='./starwars-api' className='space-button'>
