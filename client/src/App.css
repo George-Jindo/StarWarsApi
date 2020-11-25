@@ -27,7 +27,7 @@ nav {
     display: flex;
     color: rgb(255, 255, 255);
     font-size: 32px;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.705);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.562);
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
         -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -38,6 +38,7 @@ nav {
     margin-top: -3px;
     letter-spacing: 1px;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .main {

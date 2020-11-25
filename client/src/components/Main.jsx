@@ -35,9 +35,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 // Data for API
-function createData(name, dob, height, weight, homeworld, species) {
+const createData = (name, dob, height, weight, homeworld, species) => {
     return { name, dob, height, weight, homeworld, species };
-}
+};
 
 const rows = [
     createData(
