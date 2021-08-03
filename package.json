@@ -4,7 +4,8 @@
   "description": "Initial Commit",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "concurrently \"npm run server\" \"cd client && npm start\"",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/George-Jindo/StarWarsApi#readme",
   "dependencies": {
+    "concurrently": "^6.2.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
