@@ -1,0 +1,19 @@
+{
+  "name": "starwarsapi",
+  "version": "1.0.0",
+  "description": "Initial Commit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/George-Jindo/StarWarsApi.git"
+  },
+  "author": "George Jindo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/George-Jindo/StarWarsApi/issues"
+  },
+  "homepage": "https://github.com/George-Jindo/StarWarsApi#readme"
+}
