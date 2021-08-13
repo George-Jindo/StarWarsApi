@@ -19,7 +19,9 @@
   "homepage": "https://github.com/George-Jindo/StarWarsApi#readme",
   "dependencies": {
     "concurrently": "^6.2.0",
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "swapi-node": "^0.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
